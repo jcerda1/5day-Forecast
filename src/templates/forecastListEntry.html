@@ -1,11 +1,11 @@
 <li  style="border: 2px dotted red">
   <div  style="border: 2px solid green">
-   I would like an image here 
+  {{$ctrl.main[0].dt_txt}}
   </div>
   <div>
-    <div style="border: 2px solid black">This should be the main temp</div>
-    <div style="border: 2px solid black">this should be the description</div>
-    <div style="border: 2px solid black">clouds?</div>
-    <div style="border: 2px solid black">wind</div>
+    <div style="border: 2px solid black">Temperature (F) : {{$ctrl.main[0].main.temp}}</div>
+    <div style="border: 2px solid black">Outside : {{$ctrl.main[0].weather[0].description}}</div>
+    <div style="border: 2px solid black">Humidity : {{$ctrl.main[0].main.humidity}}</div>
+    <div style="border: 2px solid black">Wind Speed : {{$ctrl.main[0].wind.speed}}</div>
   </div>
 </li>

@@ -3,8 +3,8 @@ angular.module('5day-forecast')
     templateUrl: 'src/templates/app.html',
     controller: function() {
       this.data = window.data
-     console.log(data[0].list.forEach(data => {
-     	console.log(data.wind)
-     }))
+      this.main = data[0].list
+      this.currentCity = data[0].city.name
+      console.log(this.currentCity)
     }
   });
