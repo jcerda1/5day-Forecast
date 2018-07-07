@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jcerda1/5day-Forecast/issues"
   },
-  "homepage": "https://github.com/jcerda1/5day-Forecast#readme"
+  "homepage": "https://github.com/jcerda1/5day-Forecast#readme",
+  "dependencies": {
+    "angular": "^1.7.2"
+  }
 }
