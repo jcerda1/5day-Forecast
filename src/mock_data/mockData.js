@@ -1,4 +1,4 @@
-window.mockData = [ {
+window.data = [ {
     "cod": "200",
     "message": 0.0047,
     "cnt": 40,
