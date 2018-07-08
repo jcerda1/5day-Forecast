@@ -6,7 +6,7 @@ angular.module('5day-forecast')
       url: 'https://api.openweathermap.org/data/2.5/forecast',
       params: {
         zip: query,
-        key: '60d64047f7f99d9adda34386426b9d46',
+        key: ,
       }
     }).then( 
         function successCallback(response) {

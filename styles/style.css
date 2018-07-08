@@ -1,5 +1,6 @@
 body {
-  background-image: url("../src/img/background.jpeg");
+  background: #007991
+  /*background-image: url("../src/img/background.jpeg");*/
 }
 
 .listContainer {
