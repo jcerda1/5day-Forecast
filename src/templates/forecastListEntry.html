@@ -1,8 +1,11 @@
-<li  style="border: 2px dotted red; padding: 3px; list-style-type: none">
-  <div  style="border: 2px solid green">
-  {{$ctrl.item.dt_txt}}
-  </div>
+<li  style="border: 2px solid grey; border-radius: 5px; box-shadow: 4px 3px; padding: 30px; list-style-type: none">
   <div>
+    <img style="margin-right: auto; margin-left: auto; width: 50%; display: block;" ng-src="http://openweathermap.org/img/w/{{$ctrl.item.weather[0].icon}}.png" alt="no img provided"/>
+  </div>
+  <div  style="border: 2px solid green; text-align: center">
+  {{$ctrl.item.dt_txt.split("").slice(0,10).join("").split("-").join("/")}}
+  </div>
+  <div style="text-align: center">
     <div style="border: 2px solid black">Temperature (F) : {{$ctrl.item.main.temp}}</div>
     <div style="border: 2px solid black">Outside : {{$ctrl.item.weather[0].description}}</div>
     <div style="border: 2px solid black">Humidity : {{$ctrl.item.main.humidity}}</div>
