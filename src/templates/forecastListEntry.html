@@ -1,11 +1,11 @@
-<li  style="border: 2px dotted red">
+<li  style="border: 2px dotted red; padding: 3px; list-style-type: none">
   <div  style="border: 2px solid green">
-  {{$ctrl.main[0].dt_txt}}
+  {{$ctrl.item.dt_txt}}
   </div>
   <div>
-    <div style="border: 2px solid black">Temperature (F) : {{$ctrl.main[0].main.temp}}</div>
-    <div style="border: 2px solid black">Outside : {{$ctrl.main[0].weather[0].description}}</div>
-    <div style="border: 2px solid black">Humidity : {{$ctrl.main[0].main.humidity}}</div>
-    <div style="border: 2px solid black">Wind Speed : {{$ctrl.main[0].wind.speed}}</div>
+    <div style="border: 2px solid black">Temperature (F) : {{$ctrl.item.main.temp}}</div>
+    <div style="border: 2px solid black">Outside : {{$ctrl.item.weather[0].description}}</div>
+    <div style="border: 2px solid black">Humidity : {{$ctrl.item.main.humidity}}</div>
+    <div style="border: 2px solid black">Wind Speed : {{$ctrl.item.wind.speed}}</div>
   </div>
 </li>

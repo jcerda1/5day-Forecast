@@ -1,10 +1,7 @@
 angular.module('5day-forecast')
   .component('forecastListEntry', {
-  	controller: function(){
-  	  console.log(this)
-  	},
   	bindings: {
-  	  main: '<'
+  	  item: '<'
   	},
   	templateUrl: "src/templates/forecastListEntry.html"
   });

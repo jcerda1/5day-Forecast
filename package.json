@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jcerda1/5day-Forecast#readme",
   "dependencies": {
-    "angular": "^1.7.2"
+    "angular": "^1.7.2",
+    "angular-moment": "^1.2.0",
+    "moment": "^2.22.2"
   }
 }

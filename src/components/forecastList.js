@@ -1,7 +1,7 @@
 angular.module('5day-forecast')
   .component('forecastList', {
   	bindings: {
-  	  main: '<'
+  	  forecasts: '<'
   	},
     templateUrl: "src/templates/forecastList.html"
   });

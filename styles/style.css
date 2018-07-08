@@ -1,3 +1,8 @@
 body {
   background: #B0C4DE;
 }
+
+.listContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr)
+}
