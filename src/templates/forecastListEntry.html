@@ -1,14 +1,19 @@
-<li  style="border: 2px solid grey; border-radius: 5px; box-shadow: 4px 3px; padding: 30px; list-style-type: none">
+<li  style="border: 4px solid #EE6055; border-radius: 5px; padding: 30px;list-style-type: none">
   <div>
     <img style="margin-right: auto; margin-left: auto; width: 50%; display: block;" ng-src="http://openweathermap.org/img/w/{{$ctrl.item.weather[0].icon}}.png" alt="no img provided"/>
   </div>
-  <div  style="border: 2px solid green; text-align: center">
+  <div> 
+  <div  style="text-align: center">
   {{$ctrl.item.dt_txt.split("").slice(0,10).join("").split("-").join("/")}}
   </div>
   <div style="text-align: center">
-    <div style="border: 2px solid black">Temperature (F) : {{$ctrl.item.main.temp}}</div>
-    <div style="border: 2px solid black">Outside : {{$ctrl.item.weather[0].description}}</div>
-    <div style="border: 2px solid black">Humidity : {{$ctrl.item.main.humidity}}</div>
-    <div style="border: 2px solid black">Wind Speed : {{$ctrl.item.wind.speed}}</div>
+    <h4>Temperature (F) : {{$ctrl.item.main.temp}}</h4>
+    <hr/>
+    <h4>Outside : {{$ctrl.item.weather[0].description}}</h4>
+    <hr/>
+    <h4>Humidity : {{$ctrl.item.main.humidity}}</h4>
+    <hr/>
+    <h4>Wind Speed : {{$ctrl.item.wind.speed}}</h4>
+  </div>
   </div>
 </li>

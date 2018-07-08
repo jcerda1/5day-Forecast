@@ -1,8 +1,10 @@
 body {
-  background: #B0C4DE;
+  background: #C1DFF0;
 }
 
 .listContainer {
   display: grid;
-  grid-template-columns: repeat(5, 1fr)
+  grid-template-columns: repeat(5, 18%);
+  column-gap: 20px
 }
+
