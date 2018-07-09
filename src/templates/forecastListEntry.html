@@ -4,7 +4,7 @@
   </div>
   <div> 
   <h2 class="date">
-    {{$ctrl.item.dt_txt.split("").slice(0,10).join("").split("-").join("/")}}
+    {{$ctrl.item.dt_txt.split("").slice(0,10).join("").split("-").slice(1).concat("2018").join("/")}}
   </h2>
   <div class="forecast">
     <h4>Temperature (F) : {{$ctrl.item.main.temp}}</h4>
