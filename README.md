@@ -12,7 +12,7 @@ This is a 5 day forecast with zip code  search feature
 
 ## Usage
 
-> This is a front end implemantation (angularJS) of a 5 day weather forecast based on zipcode
+> This is a front end (angularJS implemantation) of a 5 day weather forecast based on zipcode
   
   Enter in your location zip code in the search bar be presented with the next five days forecast.
 
