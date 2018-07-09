@@ -31,7 +31,7 @@ From the root directory, npm start
 
 > For dev live-server is a dependency. Use this to view UI. 
 
--live-server
+- live-server
 
 
 ## Development
