@@ -13,7 +13,7 @@ angular.module('5day-forecast')
     bindings: {
       searchProvider: "<",
       forecasts: "=",
-      currentCity: "=",
+      currentCity: "="
     },
   templateUrl: "src/templates/search.html"
 });
