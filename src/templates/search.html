@@ -1,7 +1,6 @@
-<div style="width:600px; margin: 0 auto">
-  <input style="padding: 4px; position: relative;z-index: 0; border-radius: 10px; margin: 0 auto;
-    width: 500px" type="text"/>
-  <button>
+<div class="search-container" >
+  <input ng-model="query" type="number"/>
+  <button ng-click="$ctrl.handleClick(query)">
     <span>search</span>
   </button>
 </div>

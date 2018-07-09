@@ -1,6 +1,33 @@
 body {
-  background: #007991
-  /*background-image: url("../src/img/background.jpeg");*/
+  background-image: url("../src/img/background.jpeg");
+}
+
+input {
+  padding: 4px; 
+  position: relative;
+  z-index: 0; 
+  border-radius: 10px; 
+  margin: 0 auto;
+  width: 500px
+}
+
+li {
+  background: #439A86; 
+  border: 4px solid #A24936; 
+  border-radius: 10px; 
+  padding: 30px;
+  list-style-type: none
+}
+
+img {
+  margin-right: auto; 
+  margin-left: auto; 
+  width: 50%; 
+  display: block; 
+}
+
+.page-title {
+  text-align: center
 }
 
 .listContainer {
@@ -9,3 +36,24 @@ body {
   column-gap: 20px
 }
 
+/*city text*/
+.city {
+  text-align: center; 
+  font-size: 40px; 
+  text-shadow: 4px 2px white
+}
+
+.date {
+  text-align: center; 
+  color: black; 
+  text-shadow: 2px 2px grey
+}
+
+.forecast {
+  text-align: center; 
+  color: white
+}
+.search-container {
+  width:600px; 
+  margin: 0 auto
+}

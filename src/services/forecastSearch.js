@@ -6,11 +6,12 @@ angular.module('5day-forecast')
       url: 'https://api.openweathermap.org/data/2.5/forecast',
       params: {
         zip: query,
-        key: ,
+        appid: API_KEY,
+        units: 'imperial'
       }
     }).then( 
         function successCallback(response) {
-          callback(response.data);
+          cb(response.data);
         }, function errorCallback(response) {
           console.log(response);
         }

@@ -1,4 +1,4 @@
 node_modules
 
 ## API keys ##
-src/services/apiKey.js
+src/config/api_key.js

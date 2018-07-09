@@ -4,7 +4,8 @@
   "description": "5 day forecast front-end application ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/jcerda1/5day-Forecast#readme",
   "dependencies": {
     "angular": "^1.7.2"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
   }
 }
